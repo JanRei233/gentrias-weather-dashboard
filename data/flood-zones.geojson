@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "hazard_level": "High (100-Year Return)",
+        "source": "Mock Cañas River Overflow"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [120.875, 14.390],
+            [120.885, 14.390],
+            [120.888, 14.380],
+            [120.872, 14.380],
+            [120.875, 14.390]
+          ]
+        ]
+      }
+    }
+  ]
+}

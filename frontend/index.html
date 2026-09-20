@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Trias Flood & Weather Dashboard</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>General Trias Disaster Monitoring</h1>
+        <p>Cañas River Basin Flood Risk & Daily Weather</p>
+    </div>
+
+    <!-- Floating Weather Widget -->
+    <div id="weather-widget" class="widget">
+        <h3>Current Weather</h3>
+        <div id="weather-data">Loading weather...</div>
+        <small id="last-updated">Waiting for data</small>
+    </div>
+
+    <!-- Map Container -->
+    <div id="map"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

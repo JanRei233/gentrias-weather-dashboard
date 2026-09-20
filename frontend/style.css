@@ -1,0 +1,66 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background: #003366;
+    color: white;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    position: relative;
+    z-index: 1000;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.header p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+#map {
+    height: calc(100vh - 70px);
+    width: 100%;
+    z-index: 1;
+}
+
+/* Floating Widget over the map */
+.widget {
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+    width: 250px;
+}
+
+.widget h3 {
+    margin-top: 0;
+    color: #333;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+}
+
+.weather-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+#last-updated {
+    display: block;
+    margin-top: 10px;
+    color: #777;
+    font-size: 11px;
+}
